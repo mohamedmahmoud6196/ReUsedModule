@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         // Do anaaaay additional setup after loading the view.
     print("Hello sssx ")
         let x = 87558
+        let y = 55
     }
 
 
