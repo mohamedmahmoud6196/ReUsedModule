@@ -7,9 +7,9 @@
 
 import UIKit
 import MBProgressHUD
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+public class ViewController: UIViewController {
+    
+    public  override func viewDidLoad() {
         super.viewDidLoad()
         // Do anaaaay additional setup after loading the view.
         let Indicator = MBProgressHUD.showAdded(to: self.view, animated: true)
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         Indicator.show(animated: true)
         Indicator.hide(animated: false, afterDelay:1)
     }
-
-
+    
+    
 }
 

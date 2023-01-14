@@ -7,9 +7,9 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+public class SecondViewController: UIViewController {
 
-    override func viewDidLoad() {
+    public  override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemRed
     }
