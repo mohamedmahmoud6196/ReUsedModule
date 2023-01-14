@@ -6,16 +6,17 @@
 //
 
 import UIKit
-
+import MBProgressHUD
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do anaaaay additional setup after loading the view.
-    print("Hello sssx ")
-        let x = 87558
-        let y = 55
-        let ss = 10
+        let Indicator = MBProgressHUD.showAdded(to: self.view, animated: true)
+        Indicator.label.text = "Indicator"
+        Indicator.isUserInteractionEnabled = false
+        Indicator.detailsLabel.text = "fetching details"
+        Indicator.show(animated: true)
     }
 
 
