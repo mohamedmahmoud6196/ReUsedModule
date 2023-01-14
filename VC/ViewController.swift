@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         Indicator.isUserInteractionEnabled = false
         Indicator.detailsLabel.text = "fetching details"
         Indicator.show(animated: true)
+        Indicator.hide(animated: false, afterDelay:1)
     }
 
 
