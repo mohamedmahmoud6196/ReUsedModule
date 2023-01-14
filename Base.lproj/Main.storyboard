@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LikeCardApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RootLikeCard" id="BYZ-38-t0r" customClass="ViewController" customModule="LikeCardApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -47,7 +47,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="942.02898550724649" y="82.366071428571431"/>
+            <point key="canvasLocation" x="787" y="82"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="Tbd-g5-aOH">
@@ -85,7 +85,7 @@
         <!--Navigation Controller-->
         <scene sceneID="dWq-dz-aSN">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xcJ-ie-zW8" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LikCard" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xcJ-ie-zW8" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aQ9-b1-Dzq">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
