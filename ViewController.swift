@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     print("Hello sssx ")
         let x = 87558
         let y = 55
+        let ss = 10
     }
 
 
